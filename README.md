@@ -2,7 +2,7 @@
 git init
 git add .
 git commit -m "first commit"
-git remote add origin https://github.com/fzhygithub/tomcat_local_mvn_withm2.git
+git remote add origin https://github.com/fzhygithub/docker_build_java.git
 git push -u origin master
 
 
