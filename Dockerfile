@@ -1,4 +1,4 @@
-FROM maven:3.5-jdk-8
+FROM tomcat:8.5.29-jre8
 
 COPY . /root/
 CMD  mv m2 .m2 &&  mvn clean package
