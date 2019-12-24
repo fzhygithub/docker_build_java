@@ -17,6 +17,6 @@ EXPOSE 8080
 CMD ["catalina.sh", "run"]
 
 
-#docker build -t helloworld .
-#docker run -d --name hellworld -p 8080:8080 helloworld
+#docker build -t hellojava .
+#docker run -d --name hellojava -p 8080:8080 hellojava
 ```
