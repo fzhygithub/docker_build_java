@@ -19,4 +19,5 @@ CMD ["catalina.sh", "run"]
 
 #docker build -t hellojava .
 #docker run -d --name hellojava -p 8080:8080 hellojava
+#http://localhost:8080/docker-demo/
 ```
