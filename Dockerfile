@@ -16,9 +16,9 @@ COPY --from=builder /root/target/docker-demo.war /usr/local/tomcat/webapps/docke
 
 ### run ###
 EXPOSE 8080
-#ENTRYPOINT ["java","-jar","/usr/src/app/target/spring-boot-docker-1.0.0.jar"]
 CMD ["catalina.sh", "run"]
 
 
 #docker build -t hellojava .
 #docker run -d --name hellojava -p 8080:8080 hellojava
+#http://localhost:8080/docker-demo/
