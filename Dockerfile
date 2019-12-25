@@ -18,6 +18,7 @@ CMD echo "Asia/Shanghai" > /etc/timezone
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
 #CMD ["java", "-jar", "/usr/local/tomcat/webapps/docker-demo.war"]
+#CMD ["catalina.sh", "run"] && tail -f /usr/local/tomcat/logs/catalina.out
 
 
 #docker build -t hellojava .
