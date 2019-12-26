@@ -12,7 +12,7 @@ RUN mv m2 .m2 && mvn clean package
 #FROM openjdk:8-jre-alpine
 #FROM tomcat:8-slim
 FROM fzhydocker/java:latest
-COPY --from=builder /root/target/docker-demo.war /usr/local/tomcat/webapps/docker-demo.war
+COPY --from=builder /root/target/docker-demo.war /usr/local/tomcat6/webapps/docker-demo.war
 #ADD target/docker-demo.war /usr/local/tomcat/webapps/
 CMD echo "Asia/Shanghai" > /etc/timezone
 ENV TIME_ZONE Asia/Shanghai
